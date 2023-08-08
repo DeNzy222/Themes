@@ -1,0 +1,28 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+html,
+body {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+.sidebar {
+  width: 25%;
+  height: 900px;
+  background-color: black;
+  position: relative;
+  padding-left: 120px;
+  padding-top: 30px;
+}
+button {
+  margin-right: 30px;
+  padding: 10px 10px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s ease;
+}
+button:hover {
+  transform: scale(1.07);
+  transition: 0.5s ease;
+}
